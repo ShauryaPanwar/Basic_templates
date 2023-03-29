@@ -1,0 +1,31 @@
+/* .child{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: -100px;
+} */
+
+.child1{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+}
+
+.child2{
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.container{
+    border: 3px solid black;
+    width: 500px;
+}
